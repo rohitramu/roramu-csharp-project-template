@@ -13,6 +13,9 @@
     <AssemblyVersion>$(Version)</AssemblyVersion>
     <Deterministic>false</Deterministic>
     <NoWarn>CS7035;IDE0037</NoWarn>
+    <RootNamespace>CSharpProjectTemplate</RootNamespace>
+    <AssemblyPrefix>$(RootNamespace)</AssemblyPrefix>
+    <AssemblyName>$(AssemblyPrefix).$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
